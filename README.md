@@ -1,5 +1,5 @@
 # FPGA-Fabric_Design_and_Architecture
-An intensive 5-day workshop organized by [VLSI System Design](https://www.vlsisystemdesign.com/).<br/>
+This document is a report of the intensive 5-day workshop organized by [VLSI System Design](https://www.vlsisystemdesign.com/).<br/>
 As a gist, a 4-bit counter and RVMyth processor are taken as the units under test. These are processed on various OpenSource platforms (Basys3, VTR, and SOFA), and the results obtained on these platforms are compared from timing, power, and area point of view. Day-to-day gist of the workshop is given below:<br/>
 - On day-1, a 4-bit counter is designed on Basys3 and the Virtual Input/Output (VIO) strobes of the results are demonstrated.<br/>
 - On day-2, Verilog To Route (VTR) flow is explored with the 4-bit counter example and the results (timing, Power, and Area) of VTR and Basys3 are compared.<br/>
