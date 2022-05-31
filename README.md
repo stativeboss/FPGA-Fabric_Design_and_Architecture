@@ -81,7 +81,7 @@ After the complete design flow, ASICs are sent to the foundry for fabrication. O
 
 Just like we get the layout as the end product of the whole design procedure of an ASIC, we get a *BITSTREAM* in case of an FPGA. The architecture of an FPGA is explained using the below figure:
 
-![image](https://user-images.githubusercontent.com/14873110/171280473-73d78fd9-eb57-4444-be86-27796d42de48.png)
+![image](https://user-images.githubusercontent.com/14873110/171280765-bd85f861-c70e-40fd-9e38-99fe0f7bae5a.png)
 
 
 
