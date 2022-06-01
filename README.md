@@ -197,6 +197,60 @@ In remote way of programming, if the IP address of the board is known, we may se
 
 Vivado is an Integrated Design Environment (IDE) from Xilinx (now AMD). The tool offers an intuitive GUI and all of its options are written in native Tool Command Language (TCL). Vivado can be used for analysis and constraint assignment at any stage of the design (such as synthesis, PnR). 
 
+Once opened (by using ```vivado ``` command), we may either create a new project or open an existing project. Upon choosing to create a new project, the tool prompts us to choose the board we wish to work upon. If we can't find the tool in the drop-down list, we need to update it's board library (there's a button for that), and then choose the board. The following code is then loaded as a design source:
+
+```Verilog
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Description: 4 bit counter with source clock (100MHz) division.
+//////////////////////////////////////////////////////////////////////////////////
+module counter_clk_div(clk,rst,counter_out);
+input clk,rst;
+reg div_clk;
+reg [25:0] delay_count;
+output reg [3:0] counter_out;
+
+//////////clock division block////////////////////
+always @(posedge clk)
+begin
+
+  if(rst)
+    begin
+      delay_count<=26'd0;
+      div_clk <= 1'b0; //initialise div_clk
+      counter_out<=4'b0000;
+    end
+
+  else
+    if(delay_count==26'd212)
+      begin
+        delay_count<=26'd0; //reset upon reaching the max value
+        div_clk <= ~div_clk;  //generating a slow clock
+      end
+
+    else
+      begin
+        delay_count<=delay_count+1;
+      end
+end
+/////////////4 bit counter block///////////////////
+always @(posedge div_clk)
+begin
+
+  if(rst)
+    begin
+      counter_out<=4'b0000;
+    end
+  else
+    begin
+      counter_out<= counter_out+1;
+    end
+end
+
+endmodule 
+```
+
+
 
 ![1 1 Verilog code running result](https://user-images.githubusercontent.com/14873110/171506463-569a983a-1ed8-410b-b96d-dfed866178a8.gif)
 
