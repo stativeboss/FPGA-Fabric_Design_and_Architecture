@@ -137,11 +137,24 @@ The below figure explains one of the many ways of implementing an LUT. It shows 
   
   ![image](https://user-images.githubusercontent.com/14873110/171394247-f12bd76b-336b-4bb1-998f-1fd864b4b1ea.png)
   
-The following figure shows a zoom-out view of how the above NAND gate is actually realized. It may be noted that each I/O port can have multiple wires (X, Y, and Z signals are given to wires and connections between these wires (also called interconnets) are made or broken depending on the requirement).
+The following figure shows a zoom-out view of how the above NAND gate is actually realized. It may be noted that each I/O port can have multiple wires (X, Y, and Z signals are given to wires and connections between these wires (also called interconnets) are made or broken depending on the requirement). 
   
   ![image](https://user-images.githubusercontent.com/14873110/171398044-f2dc6a69-b768-42e5-ad9c-94d0eb25cc7d.png)
 
-
+Also, interconnections can be made between different CLBs. Let's say, for example, we'd like to implement an expression ``` Z = ~(X.Y) + P ```. A single CLB may be used to realise this logic but alternately, two CLBs might be used too. This is shown in the below figure:
   
+  ![image](https://user-images.githubusercontent.com/14873110/171403330-286ecfc5-85dc-49c3-b9d1-843ea3cc50e0.png)
+
+CLB_1 implements the NAND logic, while CLB_2 implements the OR logic. Closely observing the connections made it may be obvious that the block diagram implemented is:
+  ```mermaid
+  flowchart LR;
+    X --> CLB_1;
+    Y --> CLB_1;
+    CLB_1 --> CLB_2;
+    P --> CLB_2;
+    CLB_2 --> Z;
+  ```
+  
+    
 
 
