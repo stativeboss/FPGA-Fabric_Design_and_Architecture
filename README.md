@@ -11,7 +11,8 @@ The elaboration of these steps makes this document.<br/>
 
 ## Platforms used:
 - xyz for doing 123
-- pqr to study 234
+- Basys3 FPGA board as a circuit development platform
+- Vivado 2019.2 IDE for synthesis and analysis of the designs
 - mno for analyzing 345
 - jkl to 456
 
@@ -198,6 +199,10 @@ flowchart TD;
 In remote way of programming, if the IP address of the board is known, we may send the input to the board through Virtual Input/Output (VIO), and observe the output from the board. In cases where the board is not available (like this workshop), the inputs are processed through VIO and the output can be observed on a Integrated Logic Analyser (ILA).
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Vivado Counter
+
+![https://user-images.githubusercontent.com/14873110/171505940-80eee432-8dd2-46f4-8d43-6153ffd3e2a9.mp4]
 
 
 
