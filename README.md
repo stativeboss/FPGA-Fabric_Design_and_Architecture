@@ -21,15 +21,16 @@ The elaboration of these steps makes this document.<br/>
   - cmd2
   - cmd3
   ```
-  1. [Caption](https://example.com)
-  2. Another list item
 
 # Day-wise contents of the workshop
   - Day1
-    - [Introduction to FPGA](#introduction-to-fpga)
+    - <details>
+      <summary>[Introduction to FPGA](#introduction-to-fpga)</summary>
+  
       - What is an FPGA?
       - LUTs and ways for programming FPGAs
       - The Basys FPGA boards and Vivado
+      </details>
     - [Vivado_Counter](#vivado_counter)
       - Verilog Simulation
       - A bit more on simulation
