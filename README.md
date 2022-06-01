@@ -131,5 +131,9 @@ Just like we get the layout as the end product of the whole design procedure of 
 
 ![image](https://user-images.githubusercontent.com/14873110/171280765-bd85f861-c70e-40fd-9e38-99fe0f7bae5a.png)
 
+  The below figure explains one of the many ways of implementing an LUT. It shows one of the many ways a code ``` Z = ~(X.Y) ``` could get realised on an FPGA.
+  
+  ![image](https://user-images.githubusercontent.com/14873110/171394011-90eb5771-9d5b-419e-bd25-3c7a07a9b94f.png)
+
 
 
