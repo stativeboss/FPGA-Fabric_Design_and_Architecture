@@ -155,6 +155,17 @@ CLB_1 implements the NAND logic, while CLB_2 implements the OR logic. Closely ob
     id2([CLB_2]) --> Z;
   ```
   
-    
+The design flow of FPGA is briefed in the following flow-chart:
+  ```mermaid
+  flowchart TD;
+    Architecture_Description --> RTL_Design_and_TestBench;
+    RTL_Design_and_TestBench --> Behavioural_Simulation;
+    Behavioural_Simulation --> Synthesis_and_Timing_Analysis;
+    Timing_Constraints -->  Synthesis_and_Timing_Analysis;
+    Pin_Assignments -->  Synthesis_and_Timing_Analysis;
+    Synthesis_and_Timing_Analysis --> Implementating_Place_and_Route;
+    Implementating_Place_and_Route --> Bitstream_Generation
+  ```
+  The generated bitstream would be used (either on software or hardware) to get Timing, Power, and Area reports. 
 
 
