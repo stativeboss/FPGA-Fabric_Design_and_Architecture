@@ -132,7 +132,8 @@ Just like we get the layout as the end product of the whole design procedure of 
 
   ![image](https://user-images.githubusercontent.com/14873110/171280765-bd85f861-c70e-40fd-9e38-99fe0f7bae5a.png)
 
-
+Since there is a Flip-Flop bank in the CLB, it is capable of storing small data.
+  
 The below figure explains one of the many ways of implementing an LUT. It shows one of the many ways a code ``` Z = ~(X.Y) ``` could get realised on an FPGA.
   
   ![image](https://user-images.githubusercontent.com/14873110/171394247-f12bd76b-336b-4bb1-998f-1fd864b4b1ea.png)
