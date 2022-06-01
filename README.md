@@ -148,11 +148,11 @@ Also, interconnections can be made between different CLBs. Let's say, for exampl
 CLB_1 implements the NAND logic, while CLB_2 implements the OR logic. Closely observing the connections made it may be obvious that the block diagram implemented is:
   ```mermaid
   flowchart LR;
-    X --> ([CLB_1]);
-    Y --> ([CLB_1]);
-    ([CLB_1]) --> ([CLB_2]);
-    P --> ([CLB_2]);
-    ([CLB_2]) --> Z;
+    X --> id1([CLB_1]);
+    Y --> id1([CLB_1]);
+    id1([CLB_1]) --> id2([CLB_2]);
+    P --> id2([CLB_2]);
+    id2([CLB_2]) --> Z;
   ```
   
     
