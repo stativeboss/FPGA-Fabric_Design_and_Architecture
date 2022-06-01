@@ -202,10 +202,7 @@ In remote way of programming, if the IP address of the board is known, we may se
 
 # Vivado Counter
 
-![https://user-images.githubusercontent.com/14873110/171505940-80eee432-8dd2-46f4-8d43-6153ffd3e2a9.mp4]
-
-
-
+![1 1 Verilog code running result](https://user-images.githubusercontent.com/14873110/171506463-569a983a-1ed8-410b-b96d-dfed866178a8.gif)
 
 
 
