@@ -85,7 +85,10 @@ The elaboration of these steps makes this document.<br/>
       - Power Analysis
       </details>
   
-    - [Earch and Basys3 result comparison](#earch-and-basys3-result-comparison)
+    - <details>
+      <summary>Earch and Basys3 result comparison</summary>
+  
+       [click here](#earch-and-basys3-result-comparison)
 
 
   - Day3
