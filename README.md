@@ -16,8 +16,6 @@ The elaboration of these steps makes this document.<br/>
 - mno for analyzing 345
 - jkl to 456
 
-## [Commands used](main/cmd)
-
 # Day-wise contents of the workshop
   - Day1
     - <details>
