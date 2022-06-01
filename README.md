@@ -24,8 +24,8 @@ The elaboration of these steps makes this document.<br/>
 
 # Day-wise contents of the workshop
   - Day1
-    <details>
-  - <summary>[Introduction to FPGA](#introduction-to-fpga)</summary>
+    <details><summary>
+    - [Introduction to FPGA](#introduction-to-fpga)</summary>
       - What is an FPGA?
       - LUTs and ways for programming FPGAs
       - The Basys FPGA boards and Vivado
