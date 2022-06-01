@@ -282,5 +282,18 @@ The following result is observed upon simulation:
 
 ![1 1 Verilog code running result](https://user-images.githubusercontent.com/14873110/171506463-569a983a-1ed8-410b-b96d-dfed866178a8.gif)
 
+It may be observed that the count is increasing for each clk_div posedge.</br>
+
+Check this snapshot from Vivado GUI which shows the steps that are done one after the other:
+
+![image](https://user-images.githubusercontent.com/14873110/171514075-3c69d6b0-32d1-48ed-9a5f-bd63a79ff5ef.png)
+
+Since simulation is done, the next step is RTL analysis. This is done by opening an elaborated design. Check below snapshot from Xilinx [user guide](https://docs.xilinx.com/r/en-US/ug892-vivado-design-flows-overview/RTL-Elaboration-and-Analysis)
+
+![image](https://user-images.githubusercontent.com/14873110/171514275-a15b7e63-2b67-4766-9bcd-03a0c0fd84b3.png)
+
+
+
+
 
 
