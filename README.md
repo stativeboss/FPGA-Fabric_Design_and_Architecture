@@ -32,7 +32,11 @@ The elaboration of these steps makes this document.<br/>
       - LUTs and ways for programming FPGAs
       - The Basys FPGA boards and Vivado
       </details>
-    - [Vivado_Counter](#vivado_counter)
+      
+    - <details>
+      <summary>Vivado_Counter</summary>
+    
+        [click here](#vivado_counter)
       - Verilog Simulation
       - A bit more on simulation
       - Map pins
@@ -42,41 +46,78 @@ The elaboration of these steps makes this document.<br/>
       - Bitstream generation view on Basys3
       - Timing
       - Power_Area
-    - [VIO_Counter](#vio_counter)
+      </details>
+    
+    - <details>
+      <summary>VIO_Counter</summary>
+  
+        [click here](#vio_counter)
       - Introduction
       - Code
       - Bitstream Outputs
+      </details>
+      
   - Day2
-    - [Introduction to OpenFPGA](#introduction-to-openfpga)
+    - <details>
+      <summary>Introduction to OpenFPGA</summary>
+  
+        [click here](#introduction-to-openfpga)
       - Part-1
       - Part-2
       - VTR flow
-    - [VPR](#vpr)
+      </details>
+      
+    - <details>
+      <summary>VPR</summary>
+        [click here](#vpr)
       - xml blif
       - tseng GUI
       - Timing report
-    - [VTR](#vtr)
+      </details>
+      
+    - <details>
+      <summary>VTR</summary>
+      
+        [click here](#vtr)
       - VTR flow with VPR GUI
       - Post synthesis simulation
       - Timing_Area
       - Power Analysis
+      </details>
+  
     - [Earch and Basys3 result comparison](#earch-and-basys3-result-comparison)
+
+
   - Day3
-    - [RISC_V core programming using Vivado](#risc_v-core-programming-using-vivado)
+    - <details>
+      <summary>RISC_V core programming using Vivado</summary>
+  
+        [click here](#risc_v-core-programming-using-vivado)
       - RVMyth Vivado RTL to Synthesis
       - RVMyth Vivado Synthesis to bitstream
+      </details>
+      
   - Day4
-    - [Introduction to SOFA FPGA Fabric IP](#introduction-to-sofa-fpga-fabric) 
+    - <details>
+      <summary>Introduction to SOFA FPGA Fabric IP</summary>
+  
+        [click here](#introduction-to-sofa-fpga-fabric) 
       - Counter Area
       - Counter Timing
       - Counter post impl
       - Counter Power
+      </details>
+      
   - Day5
-    - [RISC_V core on custom SOFA fabric](-risc_v-core-on-custom-sofa-fabric)
+    - <details>
+      <summary>RISC_V core on custom SOFA fabric</summary>
+  
+        [click here](#risc_v-core-on-custom-sofa-fabric)
       - SOFA-RVMyth run
       - SOFA-RVMyth timing and area
       - RVMyth post impl netlist
       - SOFA-RVMyth Vivado simulation
+      </details>
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # Introduction to FPGA
