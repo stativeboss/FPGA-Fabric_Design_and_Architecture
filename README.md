@@ -27,6 +27,7 @@ The elaboration of these steps makes this document.<br/>
     - <details>
       <summary> [Introduction to FPGA](#introduction-to-fpga) </summary>
   
+        [click here](#introduction-to-fpga)
       - What is an FPGA?
       - LUTs and ways for programming FPGAs
       - The Basys FPGA boards and Vivado
