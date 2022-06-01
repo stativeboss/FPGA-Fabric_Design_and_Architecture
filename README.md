@@ -191,7 +191,7 @@ There are different ways of programming the board:
 flowchart TD;
   Programming --> On_site_using_the_actual_board;
   Programming --> Remote;
-  Remote --> Send_input_bitstream_through_VIO_observe_output_on_actual_board;
+  Remote --> Send_input_through_VIO_observe_output_on_actual_board;
   Remote --> Input_through_VIO_output_observed_on_ILA;
 ```
 In remote way of programming, if the IP address of the board is known, we may send the input to the board through Virtual Input/Output (VIO), and observe the output from the board. In cases where the board is not available (like this workshop), the inputs are processed through VIO and the output can be observed on a Integrated Logic Analyser (ILA).
