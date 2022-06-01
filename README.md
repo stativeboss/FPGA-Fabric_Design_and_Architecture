@@ -69,6 +69,7 @@ The elaboration of these steps makes this document.<br/>
       
     - <details>
       <summary>VPR</summary>
+  
         [click here](#vpr)
       - xml blif
       - tseng GUI
