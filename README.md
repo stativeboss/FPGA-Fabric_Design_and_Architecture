@@ -178,12 +178,13 @@ The following pointers are to considered while writing RTL for FPGAs:
 
 
 **Some information about Basys3** :  
-The following figure (taken from [here](https://digilent.com/reference/basys3/refmanual)) highlights the importamt components on the Basys3 board. Ironically, the most important component is not highlighted, the FPGA: 
+The following figure (taken from [here](https://digilent.com/reference/basys3/refmanual)) highlights the importamt components on the Basys3 board: 
   
   ![image](https://user-images.githubusercontent.com/14873110/171421117-f502731a-2797-4972-b489-98cfaebad0cf.png)
 
-According the [reference maual](https://digilent.com/reference/basys3/refmanual), 
-  " _The Basys3 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx. With its high-capacity FPGA [XC7A35T-1CPG236C](https://docs.xilinx.com/v/u/en-US/ds181_Artix_7_Data_Sheet), low overall cost, and collection of USB, VGA, and other ports, the Basys3 can host designs ranging from introductory combinational circuits to complex sequential circuits like embedded processors and controllers. It includes enough switches, LEDs and other I/O devices to allow a large number designs to be completed without the need for any additional hardware, and enough uncommitted FPGA I/O pins to allow designs to be expanded using Digilent Pmods or other custom boards and circuits_ "
+ Ironically, the most important component is not highlighted, the FPGA. According the [reference maual](https://digilent.com/reference/basys3/refmanual),</br> 
+  " _The Basys3 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7™ Field Programmable Gate Array (FPGA) from Xilinx. With its high-capacity FPGA [XC7A35T-1CPG236C](https://docs.xilinx.com/v/u/en-US/ds181_Artix_7_Data_Sheet), low overall cost, and collection of USB, VGA, and other ports, the Basys3 can host designs ranging from introductory combinational circuits to complex sequential circuits like embedded processors and controllers. It includes enough switches, LEDs and other I/O devices to allow a large number designs to be completed without the need for any additional hardware, and enough uncommitted FPGA I/O pins to allow designs to be expanded using Digilent Pmods or other custom boards and circuits_ ".</br>
+  
 
 
 
