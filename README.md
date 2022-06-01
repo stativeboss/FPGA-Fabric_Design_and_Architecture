@@ -177,12 +177,11 @@ The following pointers are to considered while writing RTL for FPGAs:
   - If the design has loops, it should be made sure that these loops are terminating.
 
 
-  
+**Some information about Basys3** :  
 The following figure (taken from [here](https://digilent.com/reference/basys3/refmanual)) highlights the importamt components on the Basys3 board. Ironically, the most important component is not highlighted, the FPGA: 
   
-    ![image](https://user-images.githubusercontent.com/14873110/171421117-f502731a-2797-4972-b489-98cfaebad0cf.png)
+  ![image](https://user-images.githubusercontent.com/14873110/171421117-f502731a-2797-4972-b489-98cfaebad0cf.png)
 
-  ![image](https://user-images.githubusercontent.com/14873110/171422008-c9c15b46-e94b-4f44-a00e-82a322ff5b43.png)
 
 
 
