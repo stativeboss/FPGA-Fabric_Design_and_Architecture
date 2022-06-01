@@ -249,8 +249,36 @@ end
 
 endmodule 
 ```
+As commented in the code, it is a 4-bit counter. The following snapshot from the [reference manual](https://digilent.com/reference/basys3/refmanual) of Basys3 says that the internal clock speed is 100MHz. In order to observe and analyse the output comfortably, the clock speed has been scaled down around 470kHz by using a delay loop. 
 
+![image](https://user-images.githubusercontent.com/14873110/171512051-c72bc658-7848-4b33-89ec-13121970b2dc.png)
 
+The following testbench is then loaded as a simulation source:
+
+```Verilog
+`timescale 1ns / 1ps
+
+module test_counter();
+reg clk, reset;
+wire [3:0] out;
+
+//create an instance of the design
+counter_clk_div dut(clk, reset, out);  
+
+initial begin
+//note that these statements are sequential.. execute one after the other 
+clk=0;  //at time=0
+reset=1;//at time=0
+#20; //delay 20 units
+reset=0; //after 20 units of time, reset becomes 0
+end
+always 
+#5 clk=~clk;  // toggle or negate the clk input every 5 units of time
+
+endmodule
+```
+
+The following result is observed upon simulation:
 
 ![1 1 Verilog code running result](https://user-images.githubusercontent.com/14873110/171506463-569a983a-1ed8-410b-b96d-dfed866178a8.gif)
 
