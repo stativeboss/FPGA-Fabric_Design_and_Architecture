@@ -166,6 +166,23 @@ The design flow of FPGA is briefed in the following flow-chart:
     Synthesis_and_Timing_Analysis --> Implementating_Place_and_Route;
     Implementating_Place_and_Route --> Bitstream_Generation
   ```
-  The generated bitstream would be used (either on software or hardware) to get Timing, Power, and Area reports. 
+
+The generated bitstream would be used (either on software or hardware) to get Timing, Power, and Area reports.
+  
+The following pointers are to considered while writing RTL for FPGAs:
+  - Delays should be implemented by designing counters and then keep counting for a few cycles (depending on how much delay is required). #time is not synthesizeable.
+  - There is no provison to _initialize_ a variable. The ``` initial ``` block is only for testbenches.
+  - User Defined Primitives (UDPs) are non-synthesizeable (obviously!).
+  - Indeterminate sizes should be given a fixed size to get synthesized.
+  - If the design has loops, it should be made sure that these loops are terminating.
+
+**Some information about Basys3**:
+  
+  The following figure highlights the importamt components on the Basys3 board (ironically, the most important component is not highlighted, the FPGA):
+  
+    ![image](https://user-images.githubusercontent.com/14873110/171420148-f0fede0d-a8b6-482b-9183-43018ab23cad.png)
+
+  
+
 
 
