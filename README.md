@@ -16,12 +16,7 @@ The elaboration of these steps makes this document.<br/>
 - mno for analyzing 345
 - jkl to 456
 
-## Commands used
-  ```
-  - cmd1
-  - cmd2
-  - cmd3
-  ```
+## [Commands used](main/cmd)
 
 # Day-wise contents of the workshop
   - Day1
@@ -201,6 +196,9 @@ In remote way of programming, if the IP address of the board is known, we may se
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Vivado Counter
+
+Vivado is an Integrated Design Environment (IDE) from Xilinx (now AMD). The tool offers an intuitive GUI and all of its options are written in native Tool Command Language (TCL). Vivado can be used for analysis and constraint assignment at any stage of the design (such as synthesis, PnR). 
+
 
 ![1 1 Verilog code running result](https://user-images.githubusercontent.com/14873110/171506463-569a983a-1ed8-410b-b96d-dfed866178a8.gif)
 
