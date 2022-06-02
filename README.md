@@ -30,7 +30,7 @@ The elaboration of these steps makes this document.<br/>
     - <details>
       <summary>Vivado_Counter</summary>
     
-        [click here](#vivado_counter)
+        [click here](#vivado-counter)
       - Verilog Simulation
       - A bit more on simulation
       - Map pins
