@@ -32,7 +32,7 @@ The elaboration of these steps makes this document.<br/>
     
         [click here](#vivado-counter)
       - Verilog Simulation
-      - A bit more on simulation
+      - Elaboration
       - Map pins
       - Slack
       - Synthesis
