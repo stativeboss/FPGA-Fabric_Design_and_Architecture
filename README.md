@@ -317,7 +317,7 @@ The constraints file (.xdc) is then saved:
 
 The contents of this file are as follows:
 
-![image](https://user-images.githubusercontent.com/14873110/171591057-cfc6e016-ddfa-45c6-99dc-262a7307eb24.png)
+![image](https://user-images.githubusercontent.com/14873110/171597446-869601d6-3783-466b-919e-11716019866d.png)
 
 
 
