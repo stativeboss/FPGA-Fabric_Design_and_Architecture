@@ -293,6 +293,9 @@ Since simulation is done, the next step is RTL analysis. This is done by opening
 ![image](https://user-images.githubusercontent.com/14873110/171514275-a15b7e63-2b67-4766-9bcd-03a0c0fd84b3.png)
 
 
+The report of the elaborated design looks as below. We'd have choice to analyse layout, I/O planning, and floorplanning. The below figure shows I/O planning,and different pins avaiable:
+
+![2 1 Elaboration_1](https://user-images.githubusercontent.com/14873110/171584486-c09f154e-51d6-4cb6-b8ce-1527474aea45.gif)
 
 
 
