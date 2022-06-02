@@ -297,6 +297,25 @@ The report of the elaborated design looks as below. We'd have choice to analyse 
 
 ![2 1 Elaboration_1](https://user-images.githubusercontent.com/14873110/171584486-c09f154e-51d6-4cb6-b8ce-1527474aea45.gif)
 
+The next step is to map the signals from the design onto these I/O ports:
+
+![image](https://user-images.githubusercontent.com/14873110/171585853-2e262caa-7169-4a2d-86de-d9ba78dc5e22.png)
+
+
+But before that, to what what pins these signals needs to be mapped, that is to be chosen. For this, we may either use the board to check the pin numbers or go the schematics. Since there's no board available, the pin configiration is observed from the [schematics](https://digilent.com/reference/_media/reference/programmable-logic/basys-3/basys-3_sch.pdf):
+
+![image](https://user-images.githubusercontent.com/14873110/171587407-79262e17-c889-4365-a542-d41f8b0bc417.png)
+
+After deciding on the pins, they are mapped with the signals as follows:
+
+![3 1_speed](https://user-images.githubusercontent.com/14873110/171590558-20570402-6bde-48a1-9e12-fd95dc0e13d3.gif)
+
+
+The constraints file (.xdc) is then saved:
+
+![image](https://user-images.githubusercontent.com/14873110/171589582-73078e6d-eefe-4b9e-8d88-2f5d68eb7302.png)
+
+
 
 
 
