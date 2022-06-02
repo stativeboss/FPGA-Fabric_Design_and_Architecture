@@ -16,7 +16,7 @@ The elaboration of these steps makes this document.<br/>
 - mno for analyzing 345
 - jkl to 456
 
-# Day-wise contents of the workshop
+## Day-wise contents of the workshop
   - Day1
     - <details>
       <summary>Introduction to FPGA</summary>
@@ -118,7 +118,7 @@ The elaboration of these steps makes this document.<br/>
       </details>
 
 ------------------------------------------------------------------------------------------------------------------------------------
-# Introduction to FPGA
+### Introduction to FPGA
 
 After the complete design flow, ASICs are sent to the foundry for fabrication. Once fabrication is done, no change can be made on the IC, especially at the design level. This fact imposes a huge pressure on the reliabilty of the design. It'd be very useful (not just from monetary terms, but from time to market point of view as well)  to have a programmable device that could be used to test multiple design codes (reprogrammable). Research towards this goal yielded devices such as Programmable Logic Arrays (PLAs), Complex Programmable Logic Devices (CPLDs), and Field Programmable Gate Arrays (FPGAs). They basically synthesize a customizable hardware and this hardware could then be used to study the timing, power, and area parameters of the design. **This course uses Basys3 FPGA offered by Xilinx**.
 
@@ -193,7 +193,7 @@ In remote way of programming, if the IP address of the board is known, we may se
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Vivado Counter
+### Vivado Counter
 
 Vivado is an Integrated Design Environment (IDE) from Xilinx (now AMD). The tool offers an intuitive GUI and all of its options are written in native Tool Command Language (TCL). Vivado can be used for analysis and constraint assignment at any stage of the design (such as synthesis, PnR). 
 
@@ -266,7 +266,7 @@ wire [3:0] out;
 counter_clk_div dut(clk, reset, out);  
 
 initial begin
-//note that these statements are sequential.. execute one after the other 
+//these statements are sequential and are executed one after the other 
 clk=0;  //at time=0
 reset=1;//at time=0
 #20; //delay 20 units
