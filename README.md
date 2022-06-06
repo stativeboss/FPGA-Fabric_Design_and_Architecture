@@ -40,8 +40,6 @@ The elaboration of these steps makes this document.<br/>
   
         [click here](#vio_counter)
       - Introduction
-      - Code
-      - Bitstream Outputs
       </details>
       
   - Day2
