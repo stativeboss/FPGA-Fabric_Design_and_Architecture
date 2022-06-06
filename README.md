@@ -1,6 +1,6 @@
 # FPGA-Fabric_Design_and_Architecture
 This document is a report of the 5-day intensive workshop on FPGAs, organized by [VLSI System Design](https://www.vlsisystemdesign.com/).<br/>
-As a gist, a 4-bit counter and RVMyth processor are taken as the units under test. These are processed on various platforms (Basys3, VTR, and SOFA), and the results obtained on these platforms are compared from timing, power, and area point of view. Day-to-day gist of the workshop is given below:<br/>
+As a gist, a 4-bit counter and RVMyth processor are taken as the units under test. These are processed on various platforms (Vivado, VTR, and SOFA), and the results obtained on these platforms are compared from timing, power, and area point of view. Day-to-day gist of the workshop is given below:<br/>
 - On day-1, a 4-bit counter is designed and analysed on Vivado, and theory on Virtual Input/Output (VIO) was discussed briefly .<br/>
 - On day-2, Verilog To Route (VTR) flow is explored with the 4-bit counter example and the results (timing, Power, and Area) of VTR and Vivado are compared.<br/>
 - On day-3, the processor code for RVMyth is studied and is run till bitstream on Vivado.<br/>
