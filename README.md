@@ -324,7 +324,7 @@ After running the synthesis, the design is opened and the timing report is check
 ![image](https://user-images.githubusercontent.com/14873110/172097510-29f695be-ae48-49e1-ad36-a030d5646525.png)
 
 The frequency was then given as a constraint:
-![image](https://user-images.githubusercontent.com/14873110/172098376-8ec0ad6e-e251-4b3a-9107-d7a9b2effde0.png)
+![5 1](https://user-images.githubusercontent.com/14873110/172100756-04b5d596-1f27-43da-9c6e-4626b86f2fdb.gif)
 
 and the new timing report:
 ![image](https://user-images.githubusercontent.com/14873110/172098512-0a79345d-ff8e-49c3-bf69-e9d2b93165eb.png)
@@ -334,6 +334,18 @@ The synthesized netlist is shown below:
 
 After synthesis, the next step is implementation:
 ![6 1 1](https://user-images.githubusercontent.com/14873110/172100625-34bab113-0467-4010-8d0c-deede3e4580d.gif)
+
+Post-implementation timing report:
+![image](https://user-images.githubusercontent.com/14873110/172100846-4f6cc2fa-5740-46ba-95d3-4b4ce62ef835.png)
+
+Utilization summary:
+![image](https://user-images.githubusercontent.com/14873110/172100961-cf29b9bd-37b0-4cf4-a4dd-13c7e820bf33.png)
+
+Power summary:
+![image](https://user-images.githubusercontent.com/14873110/172101122-25872cbd-45ed-46a8-93ff-44dd09e825ce.png)
+
+The next step after synthesis is bitstream generation:
+![6 1 2](https://user-images.githubusercontent.com/14873110/172104974-2b44e030-a3a5-4062-a9de-e824f2a198eb.gif)
 
 
 
