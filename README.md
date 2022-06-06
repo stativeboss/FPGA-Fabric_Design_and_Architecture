@@ -321,9 +321,23 @@ The contents of this file are as follows:
 
 After running the synthesis, the design is opened and the timing report is checked. The report is as follows:
 
-![image](https://user-images.githubusercontent.com/14873110/172092523-2b0ed297-2de2-43b0-91da-f92f7c5b2d82.png)
+![image](https://user-images.githubusercontent.com/14873110/172097510-29f695be-ae48-49e1-ad36-a030d5646525.png)
 
 The frequency was then given as a constraint:
+![image](https://user-images.githubusercontent.com/14873110/172098376-8ec0ad6e-e251-4b3a-9107-d7a9b2effde0.png)
+
+and the new timing report:
+![image](https://user-images.githubusercontent.com/14873110/172098512-0a79345d-ff8e-49c3-bf69-e9d2b93165eb.png)
+ 
+The synthesized netlist is shown below:
+![image](https://user-images.githubusercontent.com/14873110/172099573-cbf91050-616b-4a3e-85ee-5b1afd458c1b.png)
+
+After synthesis, the next step is implementation:
+![6 1 1](https://user-images.githubusercontent.com/14873110/172100625-34bab113-0467-4010-8d0c-deede3e4580d.gif)
+
+
+
+
 
 
 
