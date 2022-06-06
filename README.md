@@ -319,6 +319,12 @@ The contents of this file are as follows:
 
 ![image](https://user-images.githubusercontent.com/14873110/171597446-869601d6-3783-466b-919e-11716019866d.png)
 
+After running the synthesis, the design is opened and the timing report is checked. The report is as follows:
+
+![image](https://user-images.githubusercontent.com/14873110/172092523-2b0ed297-2de2-43b0-91da-f92f7c5b2d82.png)
+
+The frequency was then given as a constraint:
+
 
 
 
